@@ -9,3 +9,8 @@ ollama
 pytest
 httpx
 python-dotenv
+streamlit
+requests
+jupyter
+pandas
+pypdf

@@ -1,52 +1,592 @@
 [
   {
-    "text": "DREAMSCAPE — CHARACTERS\n\nLuna Vale\n\nLuna Vale is a young guardian from the Kingdom of Lunaris. She was chosen to protect the Moon Crystal because of her unusual connection to Moon Magic. Luna is calm, curious, and determined. She spends much of her time studying ancient records and exploring places connected to the history of the crystal.\n\nLuna's strongest ability is Moonlight Shield, a defensive spell that creates a protective barrier using concentrated Moon Magic. She can also communicate with Moon Spirits, although doing so requires significant concentration. Luna cannot use Fire Magic because her magical abilities are strongly connected to the Moon Crystal.\n\nAren Sol\n\nAren Sol is a skilled Fire Mage from the Kingdom of Solara. He is confident, energetic, and sometimes impatient. Aren studied at the Solara Academy of Magic and became known for his ability to control flames.\n\nHis strongest ability is Solar Burst, a powerful Fire Magic technique that produces a concentrated wave of heat and light. Despite his impressive abilities, Aren has difficulty controlling his magic when he becomes angry.\n\nMira Elian\n\nMira Elian is the royal archivist of Lunaris. Unlike most powerful characters in Asteria, Mira does not specialize in combat magic. Her strength comes from her knowledge of history and ancient documents.\n\nMira maintains the Royal Archive, where records about the kingdoms, the Eclipse War, and the Moon Crystal are stored. She often helps Luna understand clues found in old manuscripts. Mira believes that understanding history is essential for preventing the conflicts of the past from happening again.\n\nKael Raven\n\nKael Raven is a mysterious traveler who specializes in Shadow Magic. He originally came from the northern regions of Asteria but spent many years traveling between the kingdoms.",
     "source": "characters.txt",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "text": "DREAMSCAPE — CHARACTERS"
   },
   {
-    "text": "Kael can manipulate shadows to hide himself and create temporary shadow barriers. He rarely discusses his past, which has led to many rumors about his connection to the Eclipse War.\n\nAlthough Kael prefers to work alone, he has helped Luna investigate dangerous areas. His knowledge of hidden paths and ancient ruins makes him a valuable guide.\n\nRelationships Between the Characters\n\nLuna and Mira work closely together because Luna needs Mira's knowledge of ancient records to understand the Moon Crystal.\n\nLuna and Aren initially disagree about how magical problems should be solved. Luna prefers careful research, while Aren prefers direct action. Despite their differences, they gradually learn to cooperate.\n\nKael sometimes assists Luna and Mira when their investigations take them into dangerous areas. His knowledge of Shadow Magic and forgotten locations makes him particularly useful during these missions.\n\nThe four characters have different abilities and personalities, but their stories become connected through the mysteries surrounding the Moon Crystal and the history of the Eclipse War.",
     "source": "characters.txt",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "text": "Luna Vale"
   },
   {
-    "text": "CREATURES OF DREAMSCAPE\n\nDreamscape is home to many magical creatures. Some live peacefully alongside humans, while others protect ancient places or dangerous magical secrets.\n\nMOONWOLVES\n\nMoonwolves are intelligent wolves that live near the Moonlit Mountains. Their fur becomes silver under moonlight. They are highly sensitive to magical energy and can detect powerful magical objects from a great distance.\n\nMoonwolves are especially connected to the Moon Crystal. Ancient guardians sometimes worked with them to protect the paths leading toward the mountains.\n\nSKY SERPENTS\n\nSky Serpents are enormous flying creatures that live among the highest clouds. They can create powerful winds with their wings and are rarely seen by ordinary travelers.\n\nAccording to old stories, Sky Serpents witnessed the Eclipse War from above and carried messages between distant kingdoms.\n\nEMBER DRAGONS\n\nEmber Dragons live inside volcanic regions. Their bodies naturally produce heat, allowing them to survive in extremely hot environments.\n\nAlthough they are dangerous when threatened, Ember Dragons are not naturally evil. Some ancient mages believed their fire could be used to strengthen magical weapons.\n\nMIST SPIRITS\n\nMist Spirits appear in forests and abandoned ruins. They are mysterious creatures made partly from magical mist.\n\nThey rarely communicate directly with humans. Instead, they sometimes guide travelers toward hidden locations or warn them about approaching danger.\n\nSHADOW CROWS\n\nShadow Crows are small magical birds associated with the Shadow Realm. They can travel silently through darkness and are often used as messengers.\n\nDuring the Eclipse War, Shadow Crows were used to carry information between enemy forces. Because of this history, many people still distrust them.\n\nCRYSTAL FOXES\n\nCrystal Foxes are rare creatures found near areas containing strong magical energy. Their fur contains tiny crystal-like formations that glow when magic is nearby.",
+    "source": "characters.txt",
+    "chunk_id": 2,
+    "text": "Luna Vale is a young guardian from the Kingdom of Lunaris. She was chosen to protect the Moon Crystal because of her unusual connection to Moon Magic. Luna is calm, curious, and determined. She spends much of her time studying ancient records and exploring places connected to the history of the crystal."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 3,
+    "text": "Luna's strongest ability is Moonlight Shield, a defensive spell that creates a protective barrier using concentrated Moon Magic. She can also communicate with Moon Spirits, although doing so requires significant concentration. Luna cannot use Fire Magic because her magical abilities are strongly connected to the Moon Crystal."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 4,
+    "text": "Aren Sol"
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 5,
+    "text": "Aren Sol is a skilled Fire Mage from the Kingdom of Solara. He is confident, energetic, and sometimes impatient. Aren studied at the Solara Academy of Magic and became known for his ability to control flames."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 6,
+    "text": "His strongest ability is Solar Burst, a powerful Fire Magic technique that produces a concentrated wave of heat and light. Despite his impressive abilities, Aren has difficulty controlling his magic when he becomes angry."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 7,
+    "text": "Mira Elian"
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 8,
+    "text": "Mira Elian is the royal archivist of Lunaris. Unlike most powerful characters in Dreamscape, Mira does not specialize in combat magic. Her strength comes from her knowledge of history and ancient documents."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 9,
+    "text": "Mira maintains the Royal Archive, where records about the kingdoms, the Eclipse War, and the Moon Crystal are stored. She often helps Luna understand clues found in old manuscripts. Mira believes that understanding history is essential for preventing the conflicts of the past from happening again."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 10,
+    "text": "Kael Raven"
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 11,
+    "text": "Kael Raven is a mysterious traveler who specializes in Shadow Magic. He originally came from the northern regions of Dreamscape but spent many years traveling between the kingdoms."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 12,
+    "text": "Kael can manipulate shadows to hide himself and create temporary shadow barriers. He rarely discusses his past, which has led to many rumors about his connection to the Eclipse War."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 13,
+    "text": "Although Kael prefers to work alone, he has helped Luna investigate dangerous areas. His knowledge of hidden paths and ancient ruins makes him a valuable guide."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 14,
+    "text": "Relationships Between the Characters"
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 15,
+    "text": "Luna and Mira work closely together because Luna needs Mira's knowledge of ancient records to understand the Moon Crystal."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 16,
+    "text": "Luna and Aren initially disagree about how magical problems should be solved. Luna prefers careful research, while Aren prefers direct action. Despite their differences, they gradually learn to cooperate."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 17,
+    "text": "Kael sometimes assists Luna and Mira when their investigations take them into dangerous areas. His knowledge of Shadow Magic and forgotten locations makes him particularly useful during these missions."
+  },
+  {
+    "source": "characters.txt",
+    "chunk_id": 18,
+    "text": "The four characters have different abilities and personalities, but their stories become connected through the mysteries surrounding the Moon Crystal and the history of the Eclipse War."
+  },
+  {
     "source": "creatures.txt",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "text": "CREATURES OF DREAMSCAPE"
   },
   {
-    "text": "They are curious but extremely difficult to approach. Legends claim that a Crystal Fox can lead a worthy traveler toward a hidden magical artifact.\n\nTHE GUARDIANS OF THE MOON\n\nThe Guardians of the Moon are not a single species but a legendary group of magical creatures believed to protect the Moon Crystal.\n\nAccording to ancient records, they appeared after the Eclipse War and remained near the Moonlit Mountains.\n\nVery few people know whether the Guardians still exist.\n\nSome legends say they are waiting for the return of the Eclipse.",
     "source": "creatures.txt",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "text": "Dreamscape is home to many magical creatures. Some live peacefully alongside humans, while others protect ancient places or dangerous magical secrets."
   },
   {
-    "text": "THE ECLIPSE WAR\n\nLong before the current age, Dreamscape was divided between five great realms. Although the realms often disagreed, they maintained an uneasy peace because the Moon Crystal was believed to protect the balance of magic.\n\nThe Moon Crystal was an ancient source of magical energy hidden beneath the Moonlit Mountains. According to legend, it could amplify magical abilities and reveal paths between different forms of magic.\n\nThe peace ended when King Vaelor of the Shadow Realm discovered an ancient prophecy. The prophecy claimed that whoever controlled the Moon Crystal could reshape the balance of magic across Dreamscape.\n\nVaelor began searching for the crystal. His armies invaded the neighboring realms, beginning what became known as the Eclipse War.\n\nThe war lasted for seven years. Mages, warriors, and magical creatures fought across forests, mountains, and ancient cities. The sky itself was changed by the conflict, and for a period of time the sun appeared strangely dim during the day. This event became known as the Eclipse.\n\nThe five realms eventually united against Vaelor. During the final battle, the Moon Crystal was awakened by a group of powerful mages. Instead of allowing Vaelor to control it, they divided its magical energy and sealed the crystal deep beneath the Moonlit Mountains.\n\nVaelor disappeared during the final battle, and his army was defeated.\n\nAfter the war, the five realms agreed to hide the true location of the Moon Crystal. Only a small group of guardians was trusted with the secret.\n\nFor hundreds of years, the world remained peaceful.\n\nHowever, ancient records warn that the Moon Crystal was never destroyed.\n\nIts power is still sleeping beneath the mountains.\n\nAnd if the Eclipse ever returns, the seal protecting the crystal may begin to weaken.",
+    "source": "creatures.txt",
+    "chunk_id": 2,
+    "text": "MOONWOLVES"
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 3,
+    "text": "Moonwolves are intelligent wolves that live near the Moonlit Mountains. Their fur becomes silver under moonlight. They are highly sensitive to magical energy and can detect powerful magical objects from a great distance."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 4,
+    "text": "Moonwolves are especially connected to the Moon Crystal. Ancient guardians sometimes worked with them to protect the paths leading toward the mountains."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 5,
+    "text": "SKY SERPENTS"
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 6,
+    "text": "Sky Serpents are enormous flying creatures that live among the highest clouds. They can create powerful winds with their wings and are rarely seen by ordinary travelers."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 7,
+    "text": "According to old stories, Sky Serpents witnessed the Eclipse War from above and carried messages between distant kingdoms."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 8,
+    "text": "EMBER DRAGONS"
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 9,
+    "text": "Ember Dragons live inside volcanic regions. Their bodies naturally produce heat, allowing them to survive in extremely hot environments."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 10,
+    "text": "Although they are dangerous when threatened, Ember Dragons are not naturally evil. Some ancient mages believed their fire could be used to strengthen magical weapons."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 11,
+    "text": "MIST SPIRITS"
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 12,
+    "text": "Mist Spirits appear in forests and abandoned ruins. They are mysterious creatures made partly from magical mist."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 13,
+    "text": "They rarely communicate directly with humans. Instead, they sometimes guide travelers toward hidden locations or warn them about approaching danger."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 14,
+    "text": "SHADOW CROWS"
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 15,
+    "text": "Shadow Crows are small magical birds associated with the Shadow Realm. They can travel silently through darkness and are often used as messengers."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 16,
+    "text": "During the Eclipse War, Shadow Crows were used to carry information between enemy forces. Because of this history, many people still distrust them."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 17,
+    "text": "CRYSTAL FOXES"
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 18,
+    "text": "Crystal Foxes are rare creatures found near areas containing strong magical energy. Their fur contains tiny crystal-like formations that glow when magic is nearby."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 19,
+    "text": "They are curious but extremely difficult to approach. Legends claim that a Crystal Fox can lead a worthy traveler toward a hidden magical artifact."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 20,
+    "text": "THE GUARDIANS OF THE MOON"
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 21,
+    "text": "The Guardians of the Moon are not a single species but a legendary group of magical creatures believed to protect the Moon Crystal."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 22,
+    "text": "According to ancient records, they appeared after the Eclipse War and remained near the Moonlit Mountains."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 23,
+    "text": "Very few people know whether the Guardians still exist."
+  },
+  {
+    "source": "creatures.txt",
+    "chunk_id": 24,
+    "text": "Some legends say they are waiting for the return of the Eclipse."
+  },
+  {
     "source": "history.txt",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "text": "THE ECLIPSE WAR"
   },
   {
-    "text": "DREAMSCAPE — LOCATIONS\n\nThe Kingdom of Lunaris\n\nThe Kingdom of Lunaris is located in the northern part of Asteria. It is known for its connection to Moon Magic and its long history of studying the Moon Crystal.\n\nThe capital city of Lunaris contains the Royal Archive, where Mira Elian works as the royal archivist. The kingdom is generally peaceful, but its leaders remain concerned about the secrets surrounding the Moon Crystal.\n\nThe Kingdom of Solara\n\nThe Kingdom of Solara lies south of Lunaris. It is famous for its warm climate, bright landscapes, and strong tradition of Fire Magic.\n\nThe Solara Academy of Magic is located in the kingdom's capital. Young magicians from different regions can study Fire Magic and other magical disciplines at the academy.\n\nMoonfall City\n\nMoonfall City is an old city located near the border of Lunaris. It was built around an ancient crater that appeared during an unexplained magical event.\n\nThe city is an important destination for researchers studying Moon Magic. Several old buildings contain inscriptions that may provide clues about the history of the Moon Crystal.\n\nThe Whispering Forest\n\nThe Whispering Forest is a large forest between Lunaris and the northern mountains. Travelers often report hearing unusual sounds among the trees, especially at night.\n\nThe forest contains rare plants and several magical creatures. Moon Wolves are commonly found near its northern edge, while Shadow Ravens are often seen deeper inside the forest.\n\nBecause the paths can change unexpectedly, travelers are advised to explore the forest with an experienced guide.\n\nThe Crystal Caverns\n\nThe Crystal Caverns are a network of underground caves located beneath the eastern mountains.\n\nThe walls of the caverns contain naturally occurring crystals that glow when exposed to magical energy. Researchers believe that the crystals may have formed thousands of years ago.",
+    "source": "history.txt",
+    "chunk_id": 1,
+    "text": "Long before the current age, Dreamscape was divided between five great realms. Although the realms often disagreed, they maintained an uneasy peace because the Moon Crystal was believed to protect the balance of magic."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 2,
+    "text": "The Moon Crystal was an ancient source of magical energy hidden beneath the Moonlit Mountains. According to legend, it could amplify magical abilities and reveal paths between different forms of magic."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 3,
+    "text": "The peace ended when King Vaelor of the Shadow Realm discovered an ancient prophecy. The prophecy claimed that whoever controlled the Moon Crystal could reshape the balance of magic across Dreamscape."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 4,
+    "text": "Vaelor began searching for the crystal. His armies invaded the neighboring realms, beginning what became known as the Eclipse War."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 5,
+    "text": "The war lasted for seven years. Mages, warriors, and magical creatures fought across forests, mountains, and ancient cities. The sky itself was changed by the conflict, and for a period of time the sun appeared strangely dim during the day. This event became known as the Eclipse."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 6,
+    "text": "The five realms eventually united against Vaelor. During the final battle, the Moon Crystal was awakened by a group of powerful mages. Instead of allowing Vaelor to control it, they divided its magical energy and sealed the crystal deep beneath the Moonlit Mountains."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 7,
+    "text": "Vaelor disappeared during the final battle, and his army was defeated."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 8,
+    "text": "After the war, the five realms agreed to hide the true location of the Moon Crystal. Only a small group of guardians was trusted with the secret."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 9,
+    "text": "For hundreds of years, the world remained peaceful."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 10,
+    "text": "However, ancient records warn that the Moon Crystal was never destroyed."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 11,
+    "text": "Its power is still sleeping beneath the mountains."
+  },
+  {
+    "source": "history.txt",
+    "chunk_id": 12,
+    "text": "And if the Eclipse ever returns, the seal protecting the crystal may begin to weaken."
+  },
+  {
     "source": "locations.txt",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "text": "DREAMSCAPE — LOCATIONS"
   },
   {
-    "text": "Crystal Beasts are known to inhabit the deeper sections of the caverns. These creatures are usually peaceful but may become defensive when their territory is threatened.\n\nThe Forgotten Tower\n\nThe Forgotten Tower stands on an isolated hill between the Kingdom of Lunaris and the Whispering Forest.\n\nThe tower was abandoned many years ago. Its original purpose remains uncertain, although historical records suggest that it may have been used by magical researchers during the years before the Eclipse War.\n\nKael Raven has visited the tower several times because its hidden passages connect to old paths leading toward the northern regions.\n\nThe Royal Archive\n\nThe Royal Archive is located in the capital of Lunaris. It contains historical documents, maps, magical research, and records from the Eclipse War.\n\nMira Elian is responsible for maintaining the archive. Luna Vale frequently visits the archive to research information about the Moon Crystal and ancient Moon Magic.\n\nThe archive is one of the most important sources of historical knowledge in Asteria.",
     "source": "locations.txt",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "text": "The Kingdom of Lunaris"
   },
   {
-    "text": "DREAMSCAPE — MAGIC SYSTEM\n\nMagic in Asteria\n\nMagic is a natural force that exists throughout Asteria. It can be studied and practiced, but different people have different levels of magical ability. The four major forms of magic are Moon Magic, Fire Magic, Shadow Magic, and Healing Magic.\n\nMoon Magic\n\nMoon Magic is associated with the moon, light, protection, and magical spirits. It is strongest in areas that have a connection to the Moon Crystal.\n\nLuna Vale is one of the strongest known users of Moon Magic. Her main defensive technique is Moonlight Shield, which creates a protective barrier. She can also communicate with Moon Spirits.\n\nMoon Magic requires concentration. Using powerful spells for a long period can leave the user exhausted.\n\nFire Magic\n\nFire Magic is associated with heat, light, and controlled flames. It is commonly practiced in the Kingdom of Solara, where magical students can study it at the Solara Academy of Magic.\n\nAren Sol is a skilled Fire Mage. His strongest technique is Solar Burst, which creates a concentrated wave of heat and light.\n\nFire Magic is powerful but difficult to control. Strong emotions can make the magic unstable, especially for inexperienced users.\n\nShadow Magic\n\nShadow Magic allows users to manipulate darkness and shadows. It can be used for concealment, creating temporary barriers, and moving through dark environments without being easily noticed.\n\nKael Raven is one of the most skilled Shadow Magic users known in Asteria. He can use shadows to hide himself and create temporary shadow barriers.\n\nShadow Magic is particularly useful for exploration because it can help users avoid detection. However, advanced techniques require significant concentration.\n\nHealing Magic",
+    "source": "locations.txt",
+    "chunk_id": 2,
+    "text": "The Kingdom of Lunaris is located in the northern part of Dreamscape. It is known for its connection to Moon Magic and its long history of studying the Moon Crystal."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 3,
+    "text": "The capital city of Lunaris contains the Royal Archive, where Mira Elian works as the royal archivist. The kingdom is generally peaceful, but its leaders remain concerned about the secrets surrounding the Moon Crystal."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 4,
+    "text": "The Kingdom of Solara"
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 5,
+    "text": "The Kingdom of Solara lies south of Lunaris. It is famous for its warm climate, bright landscapes, and strong tradition of Fire Magic."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 6,
+    "text": "The Solara Academy of Magic is located in the kingdom's capital. Young magicians from different regions can study Fire Magic and other magical disciplines at the academy."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 7,
+    "text": "Moonfall City"
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 8,
+    "text": "Moonfall City is an old city located near the border of Lunaris. It was built around an ancient crater that appeared during an unexplained magical event."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 9,
+    "text": "The city is an important destination for researchers studying Moon Magic. Several old buildings contain inscriptions that may provide clues about the history of the Moon Crystal."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 10,
+    "text": "The Whispering Forest"
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 11,
+    "text": "The Whispering Forest is a large forest between Lunaris and the northern mountains. Travelers often report hearing unusual sounds among the trees, especially at night."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 12,
+    "text": "The forest contains rare plants and several magical creatures. Moon Wolves are commonly found near its northern edge, while Shadow Ravens are often seen deeper inside the forest."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 13,
+    "text": "Because the paths can change unexpectedly, travelers are advised to explore the forest with an experienced guide."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 14,
+    "text": "The Crystal Caverns"
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 15,
+    "text": "The Crystal Caverns are a network of underground caves located beneath the eastern mountains."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 16,
+    "text": "The walls of the caverns contain naturally occurring crystals that glow when exposed to magical energy. Researchers believe that the crystals may have formed thousands of years ago."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 17,
+    "text": "Crystal Beasts are known to inhabit the deeper sections of the caverns. These creatures are usually peaceful but may become defensive when their territory is threatened."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 18,
+    "text": "The Forgotten Tower"
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 19,
+    "text": "The Forgotten Tower stands on an isolated hill between the Kingdom of Lunaris and the Whispering Forest."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 20,
+    "text": "The tower was abandoned many years ago. Its original purpose remains uncertain, although historical records suggest that it may have been used by magical researchers during the years before the Eclipse War."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 21,
+    "text": "Kael Raven has visited the tower several times because its hidden passages connect to old paths leading toward the northern regions."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 22,
+    "text": "The Royal Archive"
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 23,
+    "text": "The Royal Archive is located in the capital of Lunaris. It contains historical documents, maps, magical research, and records from the Eclipse War."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 24,
+    "text": "Mira Elian is responsible for maintaining the archive. Luna Vale frequently visits the archive to research information about the Moon Crystal and ancient Moon Magic."
+  },
+  {
+    "source": "locations.txt",
+    "chunk_id": 25,
+    "text": "The archive is one of the most important sources of historical knowledge in Dreamscape."
+  },
+  {
     "source": "magic_system.txt",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "text": "DREAMSCAPE — MAGIC SYSTEM"
   },
   {
-    "text": "Healing Magic is used to restore energy and help injured people recover. Unlike Moon Magic, Fire Magic, and Shadow Magic, it focuses mainly on protection and recovery rather than combat.\n\nHealing Magic is commonly taught to magical students who want to become healers. Powerful healing requires extensive training and cannot instantly solve every physical problem.\n\nThe Moon Crystal\n\nThe Moon Crystal is one of the most important magical artifacts in Asteria. It contains a large amount of magical energy and has a strong connection to Moon Magic.\n\nThe crystal is protected by Luna Vale. Ancient records suggest that its history is connected to the Eclipse War.\n\nMany researchers believe that understanding the Moon Crystal could reveal important information about the origins of magic in Asteria.\n\nLimits of Magic\n\nMagic in Asteria is not unlimited. Every spell requires energy and concentration. Repeatedly using powerful spells can exhaust a magician.\n\nMagical abilities also depend on training and natural affinity. A person who is highly skilled in one form of magic may not be equally skilled in another.\n\nFor this reason, successful magical teams often combine people with different abilities rather than relying on one type of magic.",
     "source": "magic_system.txt",
-    "chunk_id": 1
+    "chunk_id": 1,
+    "text": "Magic in Dreamscape"
   },
   {
-    "text": "DREAMSCAPE — WORLD GUIDE\n\nWelcome to Asteria, a mysterious world where ancient kingdoms, powerful magic, and unusual creatures exist alongside one another.\n\nAsteria is divided into several regions, each with its own culture, history, and relationship with magic. The most important regions are the Kingdom of Lunaris, the Kingdom of Solara, Moonfall City, the Whispering Forest, and the Crystal Caverns.\n\nMagic is an important part of life in Asteria. The four major forms of magic are Moon Magic, Fire Magic, Shadow Magic, and Healing Magic. Each type has different abilities and limitations. Although many people can learn basic magical skills, powerful magic usually requires years of training or a special connection to magical artifacts.\n\nOne of the most important magical artifacts in Asteria is the Moon Crystal. According to historical records, the crystal was created centuries ago and contains a large amount of magical energy. It is closely connected to Moon Magic and plays an important role in the history of Lunaris.\n\nAsteria is also home to many unusual creatures. Some are peaceful and live alongside humans, while others are dangerous and should only be approached by experienced travelers. Moon Wolves, Shadow Ravens, and Crystal Beasts are among the creatures most often mentioned in the records of Asteria.\n\nThe history of Asteria contains several major conflicts. The most famous is the Eclipse War, a conflict that changed the relationships between the kingdoms and affected the use of magic throughout the world.\n\nThe people of Asteria continue to study its history, explore its unexplored regions, and search for answers about the origins of magic.\n\nThis guide provides a general introduction to Asteria. More detailed information about its characters, locations, magic, creatures, and history is stored in separate documents in the DreamScape knowledge base.",
+    "source": "magic_system.txt",
+    "chunk_id": 2,
+    "text": "Magic is a natural force that exists throughout Dreamscape. It can be studied and practiced, but different people have different levels of magical ability. The four major forms of magic are Moon Magic, Fire Magic, Shadow Magic, and Healing Magic."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 3,
+    "text": "Moon Magic"
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 4,
+    "text": "Moon Magic is associated with the moon, light, protection, and magical spirits. It is strongest in areas that have a connection to the Moon Crystal."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 5,
+    "text": "Luna Vale is one of the strongest known users of Moon Magic. Her main defensive technique is Moonlight Shield, which creates a protective barrier. She can also communicate with Moon Spirits."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 6,
+    "text": "Moon Magic requires concentration. Using powerful spells for a long period can leave the user exhausted."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 7,
+    "text": "Fire Magic"
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 8,
+    "text": "Fire Magic is associated with heat, light, and controlled flames. It is commonly practiced in the Kingdom of Solara, where magical students can study it at the Solara Academy of Magic."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 9,
+    "text": "Aren Sol is a skilled Fire Mage. His strongest technique is Solar Burst, which creates a concentrated wave of heat and light."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 10,
+    "text": "Fire Magic is powerful but difficult to control. Strong emotions can make the magic unstable, especially for inexperienced users."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 11,
+    "text": "Shadow Magic"
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 12,
+    "text": "Shadow Magic allows users to manipulate darkness and shadows. It can be used for concealment, creating temporary barriers, and moving through dark environments without being easily noticed."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 13,
+    "text": "Kael Raven is one of the most skilled Shadow Magic users known in Dreamscape. He can use shadows to hide himself and create temporary shadow barriers."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 14,
+    "text": "Shadow Magic is particularly useful for exploration because it can help users avoid detection. However, advanced techniques require significant concentration."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 15,
+    "text": "Healing Magic"
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 16,
+    "text": "Healing Magic is used to restore energy and help injured people recover. Unlike Moon Magic, Fire Magic, and Shadow Magic, it focuses mainly on protection and recovery rather than combat."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 17,
+    "text": "Healing Magic is commonly taught to magical students who want to become healers. Powerful healing requires extensive training and cannot instantly solve every physical problem."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 18,
+    "text": "The Moon Crystal"
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 19,
+    "text": "The Moon Crystal is one of the most important magical artifacts in Dreamscape. It contains a large amount of magical energy and has a strong connection to Moon Magic."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 20,
+    "text": "The crystal is protected by Luna Vale. Ancient records suggest that its history is connected to the Eclipse War."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 21,
+    "text": "Many researchers believe that understanding the Moon Crystal could reveal important information about the origins of magic in Dreamscape."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 22,
+    "text": "Limits of Magic"
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 23,
+    "text": "Magic in Dreamscapeis not unlimited. Every spell requires energy and concentration. Repeatedly using powerful spells can exhaust a magician."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 24,
+    "text": "Magical abilities also depend on training and natural affinity. A person who is highly skilled in one form of magic may not be equally skilled in another."
+  },
+  {
+    "source": "magic_system.txt",
+    "chunk_id": 25,
+    "text": "For this reason, successful magical teams often combine people with different abilities rather than relying on one type of magic."
+  },
+  {
     "source": "world_guide.txt",
-    "chunk_id": 0
+    "chunk_id": 0,
+    "text": "DREAMSCAPE — WORLD GUIDE"
+  },
+  {
+    "source": "world_guide.txt",
+    "chunk_id": 1,
+    "text": "Welcome to Asteria, a mysterious world where ancient kingdoms, powerful magic, and unusual creatures exist alongside one another."
+  },
+  {
+    "source": "world_guide.txt",
+    "chunk_id": 2,
+    "text": "Asteria is divided into several regions, each with its own culture, history, and relationship with magic. The most important regions are the Kingdom of Lunaris, the Kingdom of Solara, Moonfall City, the Whispering Forest, and the Crystal Caverns."
+  },
+  {
+    "source": "world_guide.txt",
+    "chunk_id": 3,
+    "text": "Magic is an important part of life in Asteria. The four major forms of magic are Moon Magic, Fire Magic, Shadow Magic, and Healing Magic. Each type has different abilities and limitations. Although many people can learn basic magical skills, powerful magic usually requires years of training or a special connection to magical artifacts."
+  },
+  {
+    "source": "world_guide.txt",
+    "chunk_id": 4,
+    "text": "One of the most important magical artifacts in Asteria is the Moon Crystal. According to historical records, the crystal was created centuries ago and contains a large amount of magical energy. It is closely connected to Moon Magic and plays an important role in the history of Lunaris."
+  },
+  {
+    "source": "world_guide.txt",
+    "chunk_id": 5,
+    "text": "Asteria is also home to many unusual creatures. Some are peaceful and live alongside humans, while others are dangerous and should only be approached by experienced travelers. Moon Wolves, Shadow Ravens, and Crystal Beasts are among the creatures most often mentioned in the records of Asteria."
+  },
+  {
+    "source": "world_guide.txt",
+    "chunk_id": 6,
+    "text": "The history of Asteria contains several major conflicts. The most famous is the Eclipse War, a conflict that changed the relationships between the kingdoms and affected the use of magic throughout the world."
+  },
+  {
+    "source": "world_guide.txt",
+    "chunk_id": 7,
+    "text": "The people of Asteria continue to study its history, explore its unexplored regions, and search for answers about the origins of magic."
+  },
+  {
+    "source": "world_guide.txt",
+    "chunk_id": 8,
+    "text": "This guide provides a general introduction to Asteria. More detailed information about its characters, locations, magic, creatures, and history is stored in separate documents in the DreamScape knowledge base."
   }
 ]

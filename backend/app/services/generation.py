@@ -1,11 +1,14 @@
 import ollama
-
 from backend.app.core.config import settings
 
 
-def create_prompt(question: str, retrieved_chunks: list[dict]) -> str:
-    """Build a grounded prompt using retrieved Dreamscape context."""
+INSUFFICIENT_INFO = (
+    "I don't have enough information in the Dreamscape knowledge base "
+    "to answer that question."
+)
 
+
+def create_prompt(question: str, retrieved_chunks: list[dict]) -> str:
     context_parts = []
 
     for i, chunk in enumerate(retrieved_chunks, start=1):
@@ -18,37 +21,41 @@ def create_prompt(question: str, retrieved_chunks: list[dict]) -> str:
     context = "\n\n".join(context_parts)
 
     prompt = f"""
-You are the Dreamscape knowledge assistant.
+You are a strict knowledge-base assistant for the fictional world Dreamscape.
 
-Answer the user's question using ONLY the information provided
-in the retrieved Dreamscape context below.
+You MUST answer using ONLY the retrieved context.
 
-Rules:
-1. Do not invent or assume facts.
-2. Do not use outside knowledge.
-3. If the context does not contain enough information, say:
-   "I don't have enough information in the Dreamscape knowledge base
-   to answer that question."
-4. Give a clear and concise answer.
-5. At the end, list the source files used.
+RULES:
+- Use only information explicitly written in the context.
+- Never invent facts.
+- Never add names, places, kingdoms, characters, events, objects,
+  abilities, or relationships that are not written in the context.
+- Never use knowledge from other fictional worlds.
+- Do not guess.
+- If the answer is not supported by the context, say:
+  "{INSUFFICIENT_INFO}"
+- Keep the answer short: 1 to 3 sentences.
+- Do not include sources in your answer.
+- The application will display the sources separately.
 
-Retrieved Context:
-------------------
+Before answering, silently check that every factual statement
+you make is supported by the retrieved context.
+
+RETRIEVED CONTEXT:
+==================
 {context}
-------------------
+==================
 
-User Question:
+QUESTION:
 {question}
 
-Answer:
+ANSWER:
 """
 
     return prompt
 
 
 def generate_answer(question: str, retrieved_chunks: list[dict]) -> str:
-    """Generate a grounded answer using the local Ollama model."""
-
     prompt = create_prompt(question, retrieved_chunks)
 
     response = ollama.chat(
@@ -58,7 +65,12 @@ def generate_answer(question: str, retrieved_chunks: list[dict]) -> str:
                 "role": "user",
                 "content": prompt
             }
-        ]
+        ],
+        options={
+            "temperature": 0
+        }
     )
 
-    return response["message"]["content"]
+    answer = response["message"]["content"].strip()
+
+    return answer

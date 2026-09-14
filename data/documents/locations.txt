@@ -2,7 +2,7 @@ DREAMSCAPE — LOCATIONS
 
 The Kingdom of Lunaris
 
-The Kingdom of Lunaris is located in the northern part of Asteria. It is known for its connection to Moon Magic and its long history of studying the Moon Crystal.
+The Kingdom of Lunaris is located in the northern part of Dreamscape. It is known for its connection to Moon Magic and its long history of studying the Moon Crystal.
 
 The capital city of Lunaris contains the Royal Archive, where Mira Elian works as the royal archivist. The kingdom is generally peaceful, but its leaders remain concerned about the secrets surrounding the Moon Crystal.
 
@@ -48,4 +48,4 @@ The Royal Archive is located in the capital of Lunaris. It contains historical d
 
 Mira Elian is responsible for maintaining the archive. Luna Vale frequently visits the archive to research information about the Moon Crystal and ancient Moon Magic.
 
-The archive is one of the most important sources of historical knowledge in Asteria.
+The archive is one of the most important sources of historical knowledge in Dreamscape.

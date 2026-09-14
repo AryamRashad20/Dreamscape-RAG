@@ -1,0 +1,303 @@
+
+/* =========================================================
+   DREAMSCAPE AI
+   Soft Fantasy Theme
+   ========================================================= */
+
+
+/* =========================================================
+   PAGE BACKGROUND
+   ========================================================= */
+
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #f7f2ff 0%,
+        #eef6ff 100%
+    );
+
+    color: #29223d;
+}
+
+
+/* =========================================================
+   MAIN CONTENT WIDTH
+   ========================================================= */
+
+.block-container {
+    max-width: 850px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+
+/* =========================================================
+   STREAMLIT HEADER
+   ========================================================= */
+
+header[data-testid="stHeader"] {
+    background: linear-gradient(
+        90deg,
+        #6c4aa5,
+        #9b7ed4
+    ) !important;
+}
+
+
+/* =========================================================
+   MAIN TITLE
+   ========================================================= */
+
+.main-title {
+    text-align: center;
+
+    font-size: 42px;
+    font-weight: 700;
+
+    color: #4b356f !important;
+
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* =========================================================
+   SUBTITLE
+   ========================================================= */
+
+.subtitle {
+    text-align: center;
+
+    font-size: 17px;
+
+    color: #5f5275 !important;
+
+    margin-bottom: 30px;
+}
+
+
+/* =========================================================
+   WELCOME BOX
+   ========================================================= */
+
+.welcome-box {
+    padding: 22px;
+
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.92);
+
+    border: 1px solid rgba(
+        120,
+        90,
+        170,
+        0.25
+    );
+
+    margin-bottom: 28px;
+
+    box-shadow:
+        0 5px 20px rgba(
+            100,
+            70,
+            150,
+            0.08
+        );
+
+    color: #29223d !important;
+}
+
+
+.welcome-box h3 {
+    color: #4b356f !important;
+
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+
+.welcome-box p,
+.welcome-box li {
+    color: #29223d !important;
+
+    line-height: 1.6;
+}
+
+
+.welcome-box ul {
+    padding-left: 25px;
+}
+
+
+/* =========================================================
+   CHAT MESSAGES
+   ========================================================= */
+
+[data-testid="stChatMessage"] {
+    border-radius: 16px !important;
+
+    padding: 12px !important;
+
+    margin-bottom: 12px !important;
+
+    border: 1px solid #f1c4dc !important;
+
+    background: #fde7f3 !important;
+}
+
+
+/* Inner chat area */
+
+[data-testid="stChatMessage"] > div {
+    background: #fde7f3 !important;
+}
+
+
+/* Chat text */
+
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] span {
+    color: #3d2940 !important;
+}
+
+
+/* User message */
+
+[data-testid="stChatMessage"]:has(
+    [data-testid="chatAvatarIcon-user"]
+) {
+    background: #f8dceb !important;
+
+    border-color: #edb9d4 !important;
+}
+
+
+/* Assistant message */
+
+[data-testid="stChatMessage"]:has(
+    [data-testid="chatAvatarIcon-assistant"]
+) {
+    background: #fde7f3 !important;
+
+    border-color: #f1c4dc !important;
+}
+
+
+/* =========================================================
+   CHAT INPUT
+   ========================================================= */
+
+[data-testid="stChatInput"] {
+    border-radius: 18px !important;
+}
+
+
+/* Input box */
+
+[data-testid="stChatInput"] textarea {
+    color: #29223d !important;
+
+    background-color: #ffffff !important;
+}
+
+
+/* Placeholder */
+
+[data-testid="stChatInput"] textarea::placeholder {
+    color: #777080 !important;
+}
+
+
+/* =========================================================
+   SOURCES
+   ========================================================= */
+
+[data-testid="stChatMessage"] .stCaption {
+    color: #5f5275 !important;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.dreamscape-footer {
+    text-align: center;
+
+    margin-top: 45px;
+
+    margin-bottom: 20px;
+
+    padding: 18px;
+
+    border-radius: 16px;
+
+    background: linear-gradient(
+        90deg,
+        #6c4aa5,
+        #9b7ed4
+    );
+
+    box-shadow:
+        0 5px 18px rgba(
+            108,
+            74,
+            165,
+            0.15
+        );
+}
+
+
+.dreamscape-footer p {
+    color: #ffffff !important;
+
+    margin: 0;
+
+    font-size: 14px;
+}
+
+
+.dreamscape-footer strong {
+    color: #ffffff !important;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.stButton > button {
+    background: #7b5bb5 !important;
+
+    color: #ffffff !important;
+
+    border: none !important;
+
+    border-radius: 12px !important;
+}
+
+
+.stButton > button:hover {
+    background: #68479e !important;
+
+    color: #ffffff !important;
+}
+
+
+/* =========================================================
+   HIDE UNNECESSARY STREAMLIT UI
+   ========================================================= */
+
+#MainMenu {
+    visibility: hidden;
+}
+
+
+[data-testid="stToolbar"] {
+    visibility: hidden;
+}
+
+
+[data-testid="stDecoration"] {
+    display: none;
+}
