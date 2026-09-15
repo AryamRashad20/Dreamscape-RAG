@@ -1,11 +1,8 @@
-
-
-import os
-from pathlib import Path
-
-import requests
 import streamlit as st
-from dotenv import load_dotenv
+from pathlib import Path
+import requests
+
+from api_client import ask_dreamscape
 
 
 # =========================================================
@@ -15,20 +12,8 @@ from dotenv import load_dotenv
 st.set_page_config(
     page_title="Dreamscape AI",
     page_icon="🌙",
-    layout="centered",
-)
+    layout="centered",)
 
-
-# =========================================================
-# LOAD ENVIRONMENT VARIABLES
-# =========================================================
-
-load_dotenv()
-
-API_URL = os.getenv(
-    "API_URL",
-    "http://127.0.0.1:8000/api/query"
-)
 
 
 # =========================================================
@@ -65,7 +50,6 @@ st.markdown(
 # =========================================================
 # WELCOME MESSAGE
 # =========================================================
-
 st.markdown("""
 <div class="welcome-box">
 
@@ -157,77 +141,38 @@ if question:
 
             try:
 
-                response = requests.post(
-                    API_URL,
-                    json={"question": question},
-                    timeout=180
+                data = ask_dreamscape(question)
+
+                answer = data.get(
+                    "answer",
+                    "I couldn't find an answer."
+                )
+
+                sources = data.get(
+                    "sources",
+                    []
+                )
+
+                st.markdown(answer)
+
+                if sources:
+                    st.caption(
+                        "📚 Sources: "
+                        + ", ".join(sources)
+                    )
+
+                st.session_state.messages.append(
+                    {
+                        "role": "assistant",
+                        "content": answer,
+                        "sources": sources
+                    }
                 )
 
 
-                # -----------------------------------------
-                # Successful response
-                # -----------------------------------------
-
-                if response.status_code == 200:
-
-                    data = response.json()
-
-                    answer = data.get(
-                        "answer",
-                        "I couldn't find an answer."
-                    )
-
-                    sources = data.get(
-                        "sources",
-                        []
-                    )
-
-
-                    st.markdown(answer)
-
-
-                    if sources:
-
-                        st.caption(
-                            "📚 Sources: "
-                            + ", ".join(sources)
-                        )
-
-
-                    st.session_state.messages.append(
-                        {
-                            "role": "assistant",
-                            "content": answer,
-                            "sources": sources
-                        }
-                    )
-
-
-                # -----------------------------------------
-                # API error
-                # -----------------------------------------
-
-                else:
-
-                    error_message = (
-                        f"⚠️ API error: {response.status_code}"
-                    )
-
-                    st.error(error_message)
-
-
-                    st.session_state.messages.append(
-                        {
-                            "role": "assistant",
-                            "content": error_message,
-                            "sources": []
-                        }
-                    )
-
-
-            # ---------------------------------------------
+            # -------------------------------------------------
             # Backend is not running
-            # ---------------------------------------------
+            # -------------------------------------------------
 
             except requests.exceptions.ConnectionError:
 
@@ -238,7 +183,6 @@ if question:
 
                 st.error(error_message)
 
-
                 st.session_state.messages.append(
                     {
                         "role": "assistant",
@@ -248,9 +192,9 @@ if question:
                 )
 
 
-            # ---------------------------------------------
+            # -------------------------------------------------
             # Request timeout
-            # ---------------------------------------------
+            # -------------------------------------------------
 
             except requests.exceptions.Timeout:
 
@@ -261,7 +205,6 @@ if question:
 
                 st.error(error_message)
 
-
                 st.session_state.messages.append(
                     {
                         "role": "assistant",
@@ -271,9 +214,9 @@ if question:
                 )
 
 
-            # ---------------------------------------------
+            # -------------------------------------------------
             # Unexpected error
-            # ---------------------------------------------
+            # -------------------------------------------------
 
             except Exception as e:
 
@@ -283,7 +226,6 @@ if question:
                 )
 
                 st.error(error_message)
-
 
                 st.session_state.messages.append(
                     {
@@ -299,10 +241,9 @@ if question:
 # =========================================================
 
 st.markdown(
-"""
-<div class="dreamscape-footer">
-<p>Created by <strong>Aryam Abogadala</strong> ✦</p>
-</div>
-""",
-unsafe_allow_html=True
-)
+    """
+    <div class="dreamscape-footer">
+        <p>Created by <strong>Aryam Abogadala</strong> ✦</p>
+    </div>
+    """,
+    unsafe_allow_html=True)
